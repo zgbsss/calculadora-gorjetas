@@ -1,0 +1,57 @@
+@import "./base.css";
+
+.calc {
+  border: 3px solid rgb(250, 152, 173);
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 830px;
+  display: block;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: rgb(252, 230, 233);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgb(252, 174, 191);
+}
+.valores-forms {
+  display: grid;
+  margin-top: 17px;
+}
+input,
+select {
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border-color: rgb(250, 152, 173);
+}
+
+span {
+  margin-left: 5px;
+}
+label {
+  font-size: 1.1em;
+}
+.resultado {
+  background-color: #af49df;
+  border-radius: 10px;
+  display: flex;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.resultado span {
+  font-size: 2em;
+}
